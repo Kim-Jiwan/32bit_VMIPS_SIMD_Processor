@@ -1,0 +1,96 @@
+0 
+33
++cli+4
++itf+/usr/synopsys/vcs/vcs_vR/R-2020.12-SP1/linux64/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/synopsys/vcs/vcs_vR/R-2020.12-SP1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /usr/synopsys/vcs/vcs_vR/R-2020.12-SP1/linux64/lib/libvirsim.so /usr/synopsys/vcs/vcs_vR/R-2020.12-SP1/linux64/lib/liberrorinf.so /usr/synopsys/vcs/vcs_vR/R-2020.12-SP1/linux64/lib/libsnpsmalloc.so /usr/synopsys/vcs/vcs_vR/R-2020.12-SP1/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/usr/synopsys/vcs/vcs_vR/R-2020.12-SP1/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mupdate
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/synopsys/vcs/vcs_vR/R-2020.12-SP1/include
+-Mxllcflags=
+-debug=3
+-f filelist
+-full64
+-gen_obj
+-gui
+-picarchive
+-timescale=1ns/1ps
+-ucli
+/usr/synopsys/vcs/vcs_vR/R-2020.12-SP1/linux64/bin/vcs1
+filelist
+32
+XDG_SESSION_ID=21583
+XDG_RUNTIME_DIR=/run/user/1245
+VMR_MODE_FLAG=64
+VENDOR=unknown
+VCS_TARGET_ARCH=linux64
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/usr/synopsys/vcs/vcs_vR/R-2020.12-SP1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/usr/synopsys/vcs/vcs_vR/R-2020.12-SP1/linux64
+SSH_TTY=/dev/pts/14
+SSH_CONNECTION=155.230.84.148 49164 155.230.24.80 241
+SSH_CLIENT=155.230.84.148 49164 241
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+REMOTEHOST=155.230.84.148
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+OVA_UUM=0
+OSTYPE=linux
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KDEDIRS=/usr
+ICV_HOME_DIR=/usr/synopsys/icv/O-2018.12-SP2/
+HOSTTYPE=x86_64-linux
+GROUP=elec518
+0
+19
+1654749629 rtl/vmips_tb.v
+1654697974 rtl/vmips_top.v
+1654345938 rtl/inst_mem.v
+1654609784 rtl/data_mem_1.v
+1654346443 rtl/vreg_file_w.v
+1654346445 rtl/vreg_file_z.v
+1654346445 rtl/vreg_file_y.v
+1654346444 rtl/vreg_file_x.v
+1654738375 rtl/Ctrl2.v
+1654748203 rtl/Ctrl1.v
+1654569183 rtl/decoder.v
+1654342879 rtl/alu.v
+1654343986 rtl/add.v
+1654342880 rtl/mux3.v
+1654696241 rtl/mux2_5b.v
+1654342880 rtl/mux2.v
+1654342880 rtl/pc.v
+1654696195 filelist
+1614744659 /usr/synopsys/vcs/vcs_vR/R-2020.12-SP1/linux64/lib/vcsdp.tab
+4
+1614746267 /usr/synopsys/vcs/vcs_vR/R-2020.12-SP1/linux64/lib/libvirsim.so
+1614745576 /usr/synopsys/vcs/vcs_vR/R-2020.12-SP1/linux64/lib/liberrorinf.so
+1614745306 /usr/synopsys/vcs/vcs_vR/R-2020.12-SP1/linux64/lib/libsnpsmalloc.so
+1614745567 /usr/synopsys/vcs/vcs_vR/R-2020.12-SP1/linux64/lib/libvfs.so
+1654749835 simv.daidir
+-1 partitionlib

@@ -1,0 +1,34 @@
+13:44:08    103 --> ...              [tcl] ucliGUI::connect -toolargs -ucligui -toolexe ./simv -pid 225421 -toolin /tmp/vcs_20220609044356_225420_tjp6..stdin -toolout /tmp/vcs_20220609044356_225420_tjp6..stdout  
+13:44:08    104 --> ...                  [tcl] set ucliGUI::state
+13:44:08    105 --> ...                      [tcl] gui_update_simulator_buttons
+13:44:09    106 --> ...                          [tcl] set ucliGUI::state
+13:44:09    107 --> ...                              [tcl] ucliCore::getToolPID
+13:44:09    108 --> ...                                  [tcl] synopsys::env hasTB
+13:44:09    109 --> ...                                      [tcl] trigger_hier_stack_context_switch 0
+13:44:09    110 --> ...                                          [tcl] synUtils::setDVEInitPhase 1
+13:44:09    111 --> ...                                              [tcl] gui_get_env SIMSETUP::SIMVPD
+13:44:09    112 --> ...                                                  [tcl] synopsys::dump -type VPD -file /home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/inter.vpd -locking
+13:44:09    113 --> ...                                                      [tcl] synopsys::dump -autoflush on -fid VPD0
+13:44:09    114 --> ...                                                          [tcl] set ::dve_fid VPD0
+13:44:09    115 --> ...                                                              [tcl] synUtils::setDVEInitPhase 0
+13:44:09    116 --> ...                                                                  [tcl] ucliCore::getToolPID
+13:44:09    117 --> ...                                                                      [tcl] synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpGRHtkF
+13:44:09    118 --> ...                                                                          [tcl] synUtils::sendTool -active {_icl_start_rpc -version "R-2020.12-SP1_Full64" -sync_file /tmp/vcs_dve_rpc.tjp6.225421}
+13:44:10    119 --> ...                                                                              [tcl] synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.tjp6.225421}
+13:44:11    120 --> ...                                                                                  [tcl] dveMisc::vbusExpand vmips_tb
+13:44:12    121 --> ...                                                                                      [tcl] config endofsim noexit
+13:44:12    122 --> ...                                                                                          [tcl] config onfail enable all
+13:44:12    123 --> ...                                                                                              [tcl] config syscaddplainmembers
+13:44:12    124 --> ...                                                                                                  [tcl] config syscaddsourcenames
+13:44:13    125 --> ...  [tcl] config syscaddstructtypes
+13:44:13    126 --> ...      [tcl] synopsys::listing -disable
+13:44:27    127 --> ...          [tcl] synopsys::dump -add {vmips_tb} -scope "." -depth 1 -fid VPD0
+13:44:31    128 --> ...              [tcl] synopsys::run
+13:44:31    129 --> ...                  [tcl] set ucliGUI::state
+13:44:31    130 --> ...                      [tcl] gui_update_simulator_buttons
+13:44:31    131 --> ...                          [tcl] set ucliGUI::state
+13:44:31    132 --> ...                              [tcl] set ucliGUI::state
+13:44:31    133 --> ...                                  [tcl] set ucliGUI::state
+13:44:31    134 --> ...                                      [tcl] catch {senv activeDomain} dveMisc::result 
+13:44:31    135 --> ...                                          [tcl] set dveMisc::result
+13:44:31    136 --> ...                                              [tcl] gui_update_simulator_buttons

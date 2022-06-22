@@ -1,0 +1,17 @@
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/Ctrl1.v
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/Ctrl2.v
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/add.v
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/alu.v
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/data_mem_1.v
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/decoder.v
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/inst_mem.v
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/mux2.v
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/mux2_5b.v
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/mux3.v
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/pc.v
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/vmips_tb.v
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/vmips_top.v
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/vreg_file_w.v
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/vreg_file_x.v
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/vreg_file_y.v
+/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/rtl/vreg_file_z.v

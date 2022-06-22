@@ -1,0 +1,100 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key &Edit_toolbar -value false
+gui_set_state_value -category Globals -key &Scope_toolbar -value false
+gui_set_state_value -category Globals -key &Trace_toolbar -value false
+gui_set_state_value -category Globals -key &Window_toolbar -value false
+gui_set_state_value -category Globals -key Grid_toolbar -value false
+gui_set_state_value -category Globals -key Signal_toolbar -value false
+gui_set_state_value -category Globals -key TimeOperations_toolbar -value false
+gui_set_state_value -category Globals -key open_list_inside -value true
+gui_set_state_value -category Globals -key open_wave_inside -value true
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -ignore_errors -file /home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/session.inter4.vpd.tcl} {gui_load_session -ignore_errors -file /home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/session.inter3.vpd.tcl} {gui_load_session -ignore_errors -file /home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/session.inter2.vpd.tcl} {gui_load_session -ignore_errors -file /home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/session.inter.vpd.tcl} {gui_load_session -ignore_errors -file /home/KNUEEhdd1/elec518/tjp6/01-vcs/11-32bits_pipeline_mips/session.inter2.vpd.tcl}}
+gui_set_state_value -category Globals -key recent_tcl_scripts -value {{gui_dve_source -global /home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/session.inter.vpd.tcl} {gui_dve_source -global /home/KNUEEhdd1/elec518/tjp6/01-vcs/11-32bits_pipeline_mips/session.inter2.vpd.tcl} {gui_dve_source -global /home/KNUEEhdd1/elec518/tjp6/01-vcs/11-32bis_pipeline_mips/session.inter.vpd.tcl} {gui_dve_source -global /home/KNUEEhdd1/elec518/tjp6/01-vcs/04-synth_mips/session.inter.vpd.tcl} {gui_dve_source -global /home/KNUEEhdd1/elec518/tjp6/01-vcs/06-pipeline_mips/session.work_final.vpd.tcl}}
+gui_set_state_value -category Layout -key child_console_showstate -value maximized
+gui_set_state_value -category Layout -key child_console_size_x -value 1799
+gui_set_state_value -category Layout -key child_console_size_y -value 559
+gui_set_state_value -category Layout -key child_data_coltype -value 43
+gui_set_state_value -category Layout -key child_data_colvalue -value 18
+gui_set_state_value -category Layout -key child_data_colvariable -value 123
+gui_set_state_value -category Layout -key child_data_showstate -value maximized
+gui_set_state_value -category Layout -key child_data_size_x -value 191
+gui_set_state_value -category Layout -key child_data_size_y -value 400
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colhier -value 130
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_coltype -value 35
+gui_set_state_value -category Layout -key child_hier_size_x -value 172
+gui_set_state_value -category Layout -key child_hier_size_y -value 400
+gui_set_state_value -category Layout -key child_list_docknewline -value false
+gui_set_state_value -category Layout -key child_list_down -value 205
+gui_set_state_value -category Layout -key child_list_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_list_pos_y -value {-17}
+gui_set_state_value -category Layout -key child_list_right -value 2569
+gui_set_state_value -category Layout -key child_list_size_x -value 2729
+gui_set_state_value -category Layout -key child_list_size_y -value 352
+gui_set_state_value -category Layout -key child_schematic_docknewline -value false
+gui_set_state_value -category Layout -key child_schematic_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_schematic_pos_y -value {-17}
+gui_set_state_value -category Layout -key child_schematic_size_x -value 3048
+gui_set_state_value -category Layout -key child_schematic_size_y -value 1193
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-17}
+gui_set_state_value -category Layout -key child_source_size_x -value 1439
+gui_set_state_value -category Layout -key child_source_size_y -value 396
+gui_set_state_value -category Layout -key child_watch_dockstate -value undocked
+gui_set_state_value -category Layout -key child_watch_showstate -value maximized
+gui_set_state_value -category Layout -key child_watch_size_x -value 2974
+gui_set_state_value -category Layout -key child_watch_size_y -value 1725
+gui_set_state_value -category Layout -key child_wave_colname -value 388
+gui_set_state_value -category Layout -key child_wave_colvalue -value 0
+gui_set_state_value -category Layout -key child_wave_docknewline -value false
+gui_set_state_value -category Layout -key child_wave_left -value 392
+gui_set_state_value -category Layout -key child_wave_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_wave_pos_y -value {-17}
+gui_set_state_value -category Layout -key child_wave_right -value 1037
+gui_set_state_value -category Layout -key child_wave_size_x -value 1439
+gui_set_state_value -category Layout -key child_wave_size_y -value 396
+gui_set_state_value -category Layout -key main_pos_x -value 25
+gui_set_state_value -category Layout -key main_pos_y -value 70
+gui_set_state_value -category Layout -key main_size_x -value 1824
+gui_set_state_value -category Layout -key main_size_y -value 1115
+gui_set_state_value -category Layout -key stand_source_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_source_child_dockstate -value left
+gui_set_state_value -category Layout -key stand_source_child_size_x -value 1001
+gui_set_state_value -category Layout -key stand_source_child_size_y -value 1589
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_dockstate -value bottom
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1705
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 199
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe ./simv -args {-ucligui  } -dir .
+gui_open_window Wave
+gui_list_add -id Wave.2 -from Hier.1 { vmips_tb } -insertionbar
+gui_sim_continue  
+gui_zoom -window Wave.2 -full
+gui_wv_zoom_timerange -id  Wave.2 0 91850
+gui_wv_zoom_timerange -id  Wave.2 0 114419
+gui_zoom -window Wave.2 -full
+gui_wv_zoom_timerange -id  Wave.2 0 93929
+gui_zoom -window Wave.2 -full
+gui_wv_zoom_timerange -id  Wave.2 0 90000
+gui_wv_zoom_timerange -id  Wave.2 0 90000
+gui_wv_zoom_timerange -id  Wave.2 0 90000
+gui_wv_zoom_timerange -id  Wave.2 0 90000
+gui_wv_zoom_timerange -id  Wave.2 0 90000
+gui_list_select -id Wave.2 -selected  { vmips_tb   }
+gui_wv_zoom_timerange -id  Wave.2 0 90000

@@ -1,0 +1,65 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Jun  9 13:43 2022
+VCD+ Writer R-2020.12-SP1_Full64 Copyright (c) 1991-2020 by Synopsys Inc.
+The file '/home/KNUEEhdd1/elec518/tjp6/01-vcs/12-vmips/inter.vpd' was opened successfully.
+HF_GPGPU : at time            10000 ps, PC=         0
+Vector1[x, y, z, w] is:         0,         0,         0,         0
+Vector2[x, y, z, w] is:         0,         0,         0,         0
+Vector3[x, y, z, w] is:         0,         0,         0,         0
+Vector4[x, y, z, w] is:         0,         0,         0,         0
+Vector5[x, y, z, w] is:         0,         0,         0,         0
+Vector6[x, y, z, w] is:         0,         0,         0,         0
+HF_GPGPU : at time            20000 ps, PC=         1
+Vector1[x, y, z, w] is:      2016,      2017,      2019,      2020
+Vector2[x, y, z, w] is:         0,         0,         0,         0
+Vector3[x, y, z, w] is:         0,         0,         0,         0
+Vector4[x, y, z, w] is:         0,         0,         0,         0
+Vector5[x, y, z, w] is:         0,         0,         0,         0
+Vector6[x, y, z, w] is:         0,         0,         0,         0
+HF_GPGPU : at time            30000 ps, PC=         2
+Vector1[x, y, z, w] is:      2016,      2017,      2019,      2020
+Vector2[x, y, z, w] is:      2017,      2019,      2020,      2021
+Vector3[x, y, z, w] is:         0,         0,         0,         0
+Vector4[x, y, z, w] is:         0,         0,         0,         0
+Vector5[x, y, z, w] is:         0,         0,         0,         0
+Vector6[x, y, z, w] is:         0,         0,         0,         0
+HF_GPGPU : at time            40000 ps, PC=         3
+Vector1[x, y, z, w] is:      2016,      2017,      2019,      2020
+Vector2[x, y, z, w] is:      2017,      2019,      2020,      2021
+Vector3[x, y, z, w] is:      2019,      2020,      2021,      2022
+Vector4[x, y, z, w] is:         0,         0,         0,         0
+Vector5[x, y, z, w] is:         0,         0,         0,         0
+Vector6[x, y, z, w] is:         0,         0,         0,         0
+HF_GPGPU : at time            50000 ps, PC=         4
+Vector1[x, y, z, w] is:      2016,      2017,      2019,      2020
+Vector2[x, y, z, w] is:      2017,      2019,      2020,      2021
+Vector3[x, y, z, w] is:      2019,      2020,      2021,      2022
+Vector4[x, y, z, w] is:      2020,      2021,      2022,      2023
+Vector5[x, y, z, w] is:         0,         0,         0,         0
+Vector6[x, y, z, w] is:         0,         0,         0,         0
+HF_GPGPU : at time            60000 ps, PC=         5
+Vector1[x, y, z, w] is:      2016,      2017,      2019,      2020
+Vector2[x, y, z, w] is:      2017,      2019,      2020,      2021
+Vector3[x, y, z, w] is:      2019,      2020,      2021,      2022
+Vector4[x, y, z, w] is:      2020,      2021,      2022,      2023
+Vector5[x, y, z, w] is:      4033,      4036,      4039,      4041
+Vector6[x, y, z, w] is:         0,         0,         0,         0
+HF_GPGPU : at time            70000 ps, PC=         6
+Vector1[x, y, z, w] is:      2016,      2017,      2019,      2020
+Vector2[x, y, z, w] is:      2017,      2019,      2020,      2021
+Vector3[x, y, z, w] is:      2019,      2020,      2021,      2022
+Vector4[x, y, z, w] is:      2020,      2021,      2022,      2023
+Vector5[x, y, z, w] is:      4033,      4036,      4039,      4041
+Vector6[x, y, z, w] is:         1,         1,         1,         1
+HF_GPGPU : at time            80000 ps, PC=         7
+Vector1[x, y, z, w] is:[      2016,      2017,      2019,      2020]
+Vector2[x, y, z, w] is:[      2017,      2019,      2020,      2021]
+Vector3[x, y, z, w] is:[      2019,      2020,      2021,      2022]
+Vector4[x, y, z, w] is:[      2020,      2021,      2022,      2023]
+Vector5[x, y, z, w] is:[      4033,      4036,      4039,      4041]
+Vector6[x, y, z, w] is:[         1,         1,         1,         1]
+The final result of B in vector memory is:[         1,          1,          1,          1]
+$finish called from file "rtl/vmips_tb.v", line 66.
+$finish at simulation time             90000 ps
+Simulation complete, time is 90000 ps.

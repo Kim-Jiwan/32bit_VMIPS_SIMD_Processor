@@ -1,0 +1,68 @@
+{
+    "mux2": [
+        "mux2",
+        "i3rNP",
+        "module",
+        1
+    ],
+    "mux3": [
+        "mux3",
+        "rsgQu",
+        "module",
+        2
+    ],
+    "alu": [
+        "alu",
+        "C26kq",
+        "module",
+        3
+    ],
+    "vreg_file_x": [
+        "vreg_file_x",
+        "hbYDi",
+        "module",
+        4
+    ],
+    "vreg_file_y": [
+        "vreg_file_y",
+        "tKTSp",
+        "module",
+        5
+    ],
+    "vreg_file_z": [
+        "vreg_file_z",
+        "hCNtm",
+        "module",
+        6
+    ],
+    "vreg_file_w": [
+        "vreg_file_w",
+        "GjWSW",
+        "module",
+        7
+    ],
+    "data_mem_1": [
+        "data_mem_1",
+        "yyBNa",
+        "module",
+        8
+    ],
+    "vmips_top": [
+        "vmips_top",
+        "IDnvD",
+        "module",
+        9
+    ],
+    "vmips_tb": [
+        "vmips_tb",
+        "gw50h",
+        "module",
+        10
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        11
+    ]
+}

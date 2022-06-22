@@ -1,4 +1,7 @@
-data_file = open("data_file.txt", "a+")
+from unicodedata import decimal
+
+
+data_file = open("datafile.txt", "a+")
 
 while True:
     data = input("4 data input : ").split()

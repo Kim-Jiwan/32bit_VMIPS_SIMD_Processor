@@ -1,0 +1,17 @@
+rtl/pc.v
+rtl/mux2.v
+rtl/mux2_5b.v
+rtl/mux3.v
+rtl/add.v
+rtl/alu.v
+rtl/decoder.v
+rtl/Ctrl1.v
+rtl/Ctrl2.v
+rtl/vreg_file_x.v
+rtl/vreg_file_y.v
+rtl/vreg_file_z.v
+rtl/vreg_file_w.v
+rtl/data_mem_1.v
+rtl/inst_mem.v
+rtl/vmips_top.v
+rtl/vmips_tb.v
