@@ -15,3 +15,6 @@ VMIPS ISA 기반 SIMD processor prototype 설계 완료\
 
 prototype이라 지원하는 명령어가 참 초라합니다..\
 얼른 개발 진행해서 ISA를 늘려갈 예정입니다.
+
+## 2. Place & Route
+![VMIPS PnR](https://user-images.githubusercontent.com/65444464/175548842-2a7d7b4d-c200-4b43-a256-4ad368fbc3f5.jpg)
